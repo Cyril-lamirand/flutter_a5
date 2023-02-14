@@ -54,7 +54,7 @@ class _RegisterState extends State<Register> {
       ),
       child: Scaffold(
         backgroundColor: Colors.transparent,
-        appBar: const AppBarWidget(title: "Inscription"),
+        appBar: const AppBarWidget(title: "Inscription", hideActionProfile: true, actionReturnButton: true),
         body: ModalProgressHUD(
           inAsyncCall: showSpinner,
           child: Padding(
@@ -113,12 +113,9 @@ class _RegisterState extends State<Register> {
                 )
               ],
             )
-
           )
         )
-
       )
     );
-
   }
 }

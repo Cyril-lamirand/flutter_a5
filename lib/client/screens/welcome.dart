@@ -25,32 +25,32 @@ class _WelcomeState extends State<Welcome> {
         )
       ),
       child: Scaffold(
-          backgroundColor: Colors.transparent,
-          body: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 15.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: <Widget>[
-                RoundedButton(
-                  colour: Colors.deepPurpleAccent.shade400,
-                  title: 'Connexion',
+        backgroundColor: Colors.transparent,
+        body: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 15.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              RoundedButton(
+                colour: Colors.deepPurpleAccent.shade400,
+                title: 'Connexion',
+                onPressed: () => {
+                  Navigator.pushNamed(context, 'login_screen')
+                },
+              ),
+              RoundedButton(
+                  colour: Colors.deepPurpleAccent.shade200,
+                  title: 'S\'enregistrer',
                   onPressed: () => {
-                    Navigator.pushNamed(context, 'login_screen')
-                  },
-                ),
-                RoundedButton(
-                    colour: Colors.deepPurpleAccent.shade200,
-                    title: 'S\'enregistrer',
-                    onPressed: () => {
-                      Navigator.pushNamed(context, 'registration_screen')
-                      //Navigator.of(context).popUntil(ModalRoute.withName("registration_screen"));
-                    }
-                ),
-              ]
-            ),
-          )
-      ),
+                    Navigator.pushNamed(context, 'registration_screen')
+                    //Navigator.of(context).popUntil(ModalRoute.withName("registration_screen"));
+                  }
+              ),
+            ]
+          ),
+        )
+      )
     );
   }
 }
