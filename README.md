@@ -1,10 +1,10 @@
-# a5_app
+# Flutter A5 App Project
 
-Author : LAMIRAND Cyril IWM 2
-University : Pôle Universitaire Leonard de Vinci
-School : Institut de l'Internet et du Multimédia
+1. Author : LAMIRAND Cyril IWM 2
+2. University : Pôle Universitaire Leonard de Vinci
+3. School : Institut de l'Internet et du Multimédia
 
-# What this app is doing ?
+## What this app is doing ?
 
 First, it's a To-Do List ! I'm using Firebase for data management, Design is really pretty (kinding, uggly af).
 - Firebase-core
