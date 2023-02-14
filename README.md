@@ -6,7 +6,7 @@
 
 ## What this app is doing ?
 
-First, it's a To-Do List ! I'm using Firebase for data management, Design is really pretty (kinding, uggly af).
+First, it's a To-Do List ! I'm using Firebase for data management, Design is really pretty (kiding, uggly af).
 - Firebase-core
 - Firebase Auth
 
