@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+/*
 const PrimaryColor = const Color(0xFFb71c1c);
 const PrimaryColorLight = const Color(0xFFf05545);
 const PrimaryColorDark = const Color(0xFF7f0000);
@@ -13,7 +13,7 @@ const TextColor = const Color(0xFFffffff);
 
 class AppTheme {
   static final ThemeData defaultTheme = _buildAppTheme();
-  static ThemeData _buildMyTheme() {
+  static ThemeData _buildAppTheme() {
     final ThemeData base = ThemeData.light();
 
     return base.copyWith(
@@ -33,13 +33,13 @@ class AppTheme {
       scaffoldBackgroundColor: Background,
       cardColor: Background,
       textSelectionColor: PrimaryColorLight,
-      backgroundColor: Background,
 
       textTheme: base.textTheme.copyWith(
-          title: base.textTheme.title.copyWith(color: TextColor),
-          body1: base.textTheme.body1.copyWith(color: TextColor),
-          body2: base.textTheme.body2.copyWith(color: TextColor)
-      ),
+          subtitle1: base.textTheme.title.copyWith(color: TextColor),
+          bodyText1: base.textTheme.body1.copyWith(color: TextColor),
+          bodyText2: base.textTheme.body2.copyWith(color: TextColor)
+      ), colorScheme: ColorScheme(background: Background, brightness: null),
     );
   }
 }
+*/
