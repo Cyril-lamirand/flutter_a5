@@ -1,8 +1,8 @@
 # Flutter A5 App Project
 
-1. Author : LAMIRAND Cyril IWM 2
-2. University : Pôle Universitaire Leonard de Vinci
-3. School : Institut de l'Internet et du Multimédia
+- Author : <b>LAMIRAND Cyril IWM 2</b>
+- University : <b>Pôle Universitaire Leonard de Vinci</b>
+- School : <b>Institut de l'Internet et du Multimédia</b>                                             
 
 ## What this app is doing ?
 
@@ -22,10 +22,10 @@ Almost ;) You can use it for a school project, for a demo, but not for publishin
 - Profile page, (mission passed : respect ++)
 
 ## Librairies 
-- Firebase-core : ^2.5.0
-- Firebase-auth : ^4.2.6
-- Cupertino-icons : ^1.0.2
-- Flutter-lints : ^2.0.0
+- Firebase-core : <i>2.5.0</i>
+- Firebase-auth : <i>4.2.6</i>
+- Cupertino-icons : <i>1.0.2</i>
+- Flutter-lints : <i>2.0.0</i>
 
 ## Framework 
 - Hmmmm ? Flutter Framework ?
