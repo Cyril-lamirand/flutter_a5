@@ -9,7 +9,6 @@
 First, it's a To-Do List ! I'm using Firebase for data management, Design is really pretty (kinding, uggly af).
 - Firebase-core
 - Firebase Auth
-- Firebase Analytics (thank's Google)
 
 ## Can i use it, download it, do what ever i want ?
 
