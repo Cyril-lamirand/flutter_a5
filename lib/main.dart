@@ -10,6 +10,7 @@ import 'package:a5_app/client/screens/register.dart';
 import 'package:a5_app/client/screens/login.dart';
 import 'package:a5_app/client/screens/home.dart';
 import 'package:a5_app/client/screens/profile.dart';
+import 'package:a5_app/client/screens/wlaboratory.dart'; // Lab
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -34,8 +35,9 @@ class MyApp extends StatelessWidget {
         'welcome_screen': (context) => Welcome(),
         'registration_screen': (context) => Register(),
         'login_screen': (context) => Login(),
-        'profil_screen': (context) => Profile(),
-        'home_screen': (context) => Home()
+        'profile_screen': (context) => Profile(),
+        'home_screen': (context) => Home(),
+        'laboratory_screen': (context) => WLaboratory()
       },
       initialRoute: 'welcome_screen',
     );

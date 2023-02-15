@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
+// Custom
+import '../templates/customBoxDecoration.dart';
+// Widgets
+import '../widgets/roundedButtonWidget.dart';
 
-import '../widgets/roundedButton.dart';
+var appContainerDecoration = boxDecorationContainer;
 
 class Welcome extends StatefulWidget {
   @override
@@ -11,27 +15,16 @@ class _WelcomeState extends State<Welcome> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          stops: [0.1, 0.4, 0.6, 0.9],
-          colors: [
-            Colors.deepPurple,
-            Colors.deepPurpleAccent,
-            Colors.teal,
-            Colors.tealAccent,
-          ],
-        )
-      ),
+      decoration: appContainerDecoration,
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 15.0),
+          padding: EdgeInsets.symmetric(horizontal: 5.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
+              Image.network("https://cdn-icons-png.flaticon.com/128/2490/2490402.png"),
               RoundedButton(
                 colour: Colors.deepPurpleAccent.shade400,
                 title: 'Connexion',

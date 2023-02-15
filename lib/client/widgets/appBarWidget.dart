@@ -34,7 +34,7 @@ class _AppBarWidgetState extends State<AppBarWidget> {
         actions: [
           IconButton(
               onPressed: () {
-
+                Navigator.pushNamed(context, "profile_screen");
               },
               icon: const Icon(Icons.account_circle)
           )
